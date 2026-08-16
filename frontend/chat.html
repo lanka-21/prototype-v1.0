@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>SUPER-HUMAN Chat</title>
+
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/chat.css">
+</head>
+
+<body>
+
+    <div class="app">
+
+        <!-- Header -->
+        <header class="header">
+
+            <h1>🧠 SUPER-HUMAN</h1>
+
+            <div class="header-right">
+
+                <button>🔍</button>
+                <button>⚙</button>
+
+            </div>
+
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+
+            <!-- Sidebar -->
+            <aside class="sidebar">
+
+                <h2>Online Users</h2>
+
+                <div id="user-list">
+
+                <div class="user-card">
+                    <span class="status online"></span>
+                    <span class="username">LK</span>
+                </div>
+
+                <div class="user-card">
+                    <span class="status online"></span>
+                    <span class="username">MK</span>
+                </div>
+
+                <div class="user-card">
+                    <span class="status online"></span>
+                    <span class="username">GK</span>
+                </div>
+
+            </div>
+
+            </aside>
+
+            <!-- Chat Area -->
+            <section class="chat-area">
+
+                <div id="chat-messages">
+
+                <div class="message received">
+                    <div class="sender">LK</div>
+                    <div class="bubble">
+                        Hello 👋
+                    </div>
+                </div>
+
+                <div class="message sent">
+                    <div class="sender">You</div>
+                    <div class="bubble">
+                        Hi LK!
+                    </div>
+                </div>
+
+                <div class="message received">
+                    <div class="sender">MK</div>
+                    <div class="bubble">
+                        Welcome to SUPER-HUMAN 🚀
+                    </div>
+                </div>
+
+            </div>
+
+                </div>
+
+                <!-- Input Area -->
+                <div class="input-area">
+
+                    <button id="file-btn">📁</button>
+
+                    <button id="image-btn">🖼</button>
+
+                    <button id="voice-btn">🎤</button>
+
+                    <input
+                        type="text"
+                        id="message-input"
+                        placeholder="Type your message..."
+                    >
+
+                    <button id="send-btn">
+                        Send
+                    </button>
+
+                </div>
+
+            </section>
+
+        </main>
+
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/chat.js"></script>
+
+</body>
+
+</html>
